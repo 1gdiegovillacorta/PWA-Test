@@ -1,0 +1,47 @@
+/*CSS*/
+
+body {
+    background-color: white;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.Header {
+    background-color: #1d3557;
+    top: 0%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    margin-bottom: 25px;
+    z-index: 1;
+    position: sticky;
+}
+
+.Title {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.Title a {
+    color: white;
+    text-decoration: none;
+}
+
+.Subtitle {
+    font-size: 23px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.Image-Container {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.Image-Container img {
+    width: 225px;
+    height: 225px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
