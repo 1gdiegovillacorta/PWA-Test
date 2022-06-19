@@ -12,4 +12,5 @@ function OpenPic2() {
 
 function CloseDescriptionBox() {
     DescriptionBox.style.height = "0%";
+    BookCover.setAttribute("src", "#");
 }
