@@ -14,6 +14,7 @@ self.addEventListener("install", e => {
                 "./Images/Pic3.jpg",
                 "./Images/App-Icons/App-Icon-192.png",
                 "./Images/Icon.svg",
+                "./Images/The-Invisible-Man-Book-Cover.jpg",
                 "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             ]);
         })
