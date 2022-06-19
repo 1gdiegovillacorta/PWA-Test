@@ -46,3 +46,80 @@ body {
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.Description-Box {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    bottom: 0%;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+}
+
+.CloseBTN {
+    position: absolute;
+    top: 0%;
+    right: 15px;
+    font-size: 30px;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.Book-Title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0%;
+    font-size: 25px;
+}
+
+.Book-Cover {
+    width: 180px;
+    height: 265px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Subheading-Description-Box {
+    color: black;
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 5px;
+    margin-top: 0%;
+}
+
+.Text-Description-Box {
+    color: black;
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.Read-Button {
+    background-color: #1d3557;
+    font-size: 25px;
+    color: white;
+    width: 40%;
+    border-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Read-Button {
+        background-color: #1d3557;
+        font-size: 25px;
+        color: white;
+        border-color: transparent;
+        border-radius: 10px;
+        width: 75%;
+        margin-bottom: 25px;
+    }
+}

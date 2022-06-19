@@ -46,12 +46,55 @@
             </a>
         </div>
         <div class="Image-Container">
-            <img class="animate__bounceIn" src="./Images/Pic2.jpg" alt="Picture 2">
+            <img class="animate__bounceIn" onclick="OpenPic2()" src="./Images/Pic2.jpg" alt="Picture 2">
         </div>
         <div class="Image-Container">
             <img class="animate__bounceIn" src="./Images/Pic3.jpg" alt="Picture 3">
         </div>
+        <!-- Description Box -->
+        <div class="Description-Box" id="Description-Box">
+            <!-- Close Button -->
+            <a class="CloseBTN" href="javascript:void(0)" onclick="CloseDescriptionBox()">
+                X
+            </a>
+            <!-- Book Title -->
+            
+            <!-- Book Cover -->
+            <div>
+                <img class="Book-Cover" id="Book-Cover" src="" alt="Book Cover">
+            </div>
+            <!-- Book Title -->
+            <h2 class="Book-Title" id="Book-Title"></h2>
+            <!-- Author -->
+            <div class="Text-Description-Box">
+                <h3 class="Subheading-Description-Box">
+                    Author
+                </h3>
+                H.G. Wells
+            </div>
+            <!-- Publication Date -->
+            <div class="Text-Description-Box">
+                <h3 class="Subheading-Description-Box">
+                    Publication Date
+                </h3>
+                1897
+            </div>
+            <!-- Pages -->
+            <div class="Text-Description-Box">
+                <h3 class="Subheading-Description-Box">
+                    Pages
+                </h3>
+                192
+            </div>
+            <!-- Read Book -->
+            <a href="#">
+                <button class="Read-Button">
+                    Read
+                </button>
+            </a>
+        </div>
         <!-- Register -->
         <script src="./Register.js"></script>
+        <script src="./index.js"></script>
     </body>
 </html>
