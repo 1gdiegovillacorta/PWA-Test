@@ -54,7 +54,6 @@ body {
     z-index: 2;
     bottom: 0%;
     background-color: white;
-    transition: 0.5s;
     overflow-x: hidden;
     text-align: center;
 }
