@@ -16,7 +16,6 @@ function OpenPic2() {
 function CloseDescriptionBox() {
     DescriptionBox.style.width = "0%";
     //BookTitle.setAttribute("class", "");
-    BookCover.setAttribute("src", "");
-    BookCover.setAttribute("class", "");
+    BookCover.setAttribute("class", "Book-Cover");
     document.getElementById("Read-Button").setAttribute("class", "Read-Button");
 }
