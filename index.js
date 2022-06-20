@@ -5,7 +5,7 @@ let BookTitle = document.getElementById("Book-Title");
 let BookCover = document.getElementById("Book-Cover");
 
 function OpenPic2() {
-    DescriptionBox.style.height = "100%"
+    DescriptionBox.style.width = "100%"
     BookTitle.innerHTML = "The Invisible Man";
     //BookTitle.setAttribute("class", "Book-Title animate__bounceIn");
     BookCover.setAttribute("class", "Book-Cover animate__bounceIn");
@@ -14,7 +14,7 @@ function OpenPic2() {
 }
 
 function CloseDescriptionBox() {
-    DescriptionBox.style.height = "0%";
+    DescriptionBox.style.width = "0%";
     //BookTitle.setAttribute("class", "");
     BookCover.setAttribute("src", "");
     BookCover.setAttribute("class", "");
